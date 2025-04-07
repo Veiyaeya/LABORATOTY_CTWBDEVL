@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman";
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            width: 100%;
+            height: 150px;
+            background-color: rgb(207, 141, 198);
+            font-size: 24px;
+            color: azure;
+            padding: 0 20px;
+        }
+
+        
+        main.flex-container {
+            display: flex;
+            height: auto;
+            background-color: rgb(255, 253, 255);
+            gap: 10px;
+            margin: 10px;
+        }
+
+        section.flex-item {
+            width: 400px;
+            max-width: 600px;  
+            background-color: rgb(243, 218, 243);
+            font-size: 20px;
+            font-family: Pattaya;
+            border-radius: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+
+        aside {
+            width: 100%;
+            background-color: rgb(214, 175, 209);
+            font-size: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 90px;
+            background-color: rgb(214, 175, 209);
+            font-size: 16px;
+            color: #fff;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+       
+        @media only screen and (max-width: 768px) {
+            header {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            section.flex-item {
+                width: 100%;
+                max-width: none;  
+                padding: 15px;
+            }
+
+            main.flex-container {
+                flex-direction: column;  
+                align-items: center;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+
+            aside {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Github Website</h1>
+    </header>
+
+ 
+    <main class="flex-container">
+        <section class="flex-item introduction">
+            <h1>Github Introduction</h1>
+            <p>People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.</p>
+        </section>
+        <section class="flex-item content">
+            <h1>Github Pages</h1>
+            <p>With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.</p>
+        </section>
+        <section class="flex-item section">
+            <h1>Github Actions</h1>
+            <p>Automation is key for streamlining your work processes, and GitHub Actions is the best way to supercharge your workflow. Who is this for: Developers, DevOps engineers, students, managers, teams, GitHub users. What you'll learn: How to create workflow files, trigger workflows, and find workflow logs. What you'll build: An Actions workflow that will check emoji shortcode references in Markdown files.</p>
+        </section>
+        <section class="flex-item section">
+            <h1>Code With Copilot</h1>
+            <p>GitHub Copilot can help you code by offering autocomplete-style suggestions. You can learn how GitHub Copilot works, and what to consider while using GitHub Copilot. GitHub Copilot analyzes the context in the file you are editing, as well as related files, and offers suggestions from within your text editor. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.</p>
+        </section>
+        <section class="flex-item section">
+            <h1>About Github</h1>
+            <p>People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.</p>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Links</h2>
+        <ul>
+            <li><a href="#">https://github.com/Veiyaeya/bea</a></li>
+            <li><a href="#">https://github.com/Veiyaeya/bea/blob/main/sample.html</a></li>
+            <li><a href="#">https://www.bbc.com/news/articles/ce303x19dwgo</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy;2025 GITHUB. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
